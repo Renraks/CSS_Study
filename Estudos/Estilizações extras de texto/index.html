@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Estilizações Extras</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1> Estilizações Extras</h1>
+
+        <br/>
+
+        <h3>Decoração de Texto</h3>
+
+        <p>A decoração de texto serve pra...................... decorar o texto :^O</p>
+        <p>Os valores que podem ser usados na decoração de texto são: </p>
+        <ul>
+            <li><b>none</b>: não muda nada do texto normal (aí é foda né kkkkkk)</li>
+            <li><b>inherit</b>: herda as propriedades de seu elemento parente</li>
+            <li><b>overline</b>: cria uma linha horizontal por cima do texto</li>
+            <li><b>underline</b>: cria uma linha horizontal por baixo do texto</li>
+            <li><b>line-through</b>: cria uma linha horizontal através do texto</li>
+        </ul>
+        <p>Aqui alguns exemplos na ordem explicada:</p>
+        <div id="decoration">
+            <p class="none"> será que sou burro ?</p>
+            <p class="inherit"> fiquei testando esses textos</p>
+            <p class="overline"> MUITAS vezes, mas eu não tinha</p>
+            <p class="underline"> escrito porra nenhuma entre as tags</p>
+            <p class="line-through"> de parágrafo (carai num foi memo que merda)</p>
+            <p> No final eu só tinha puxado o link do CSS errado :^|</p>
+        </div>
+
+        <br/>
+        <hr/>
+
+        <h3>Indentação de Texto</h3>
+        <div id="indentado">
+            <p>Um texto indentado começa como este, basicamente a indentação em CSS serve para definir uma distancia inciail
+                em que o texto deve iniciar, praticamente como um tab antes de escrever.
+            </p>
+            <p>E meio que é só isso mesmo</p>
+        </div>
+
+        <br/>
+        <hr/>
+
+        <h3>Sombra de Texto</h3>
+        <p>Esta propriedade serve basicamente pra fazer o seu texto parecer que foi feito no word quando vc tinha 10 anos.</p>
+        <p id="sombrudo">Tipo esse texto aqui</p>
+        <p id="sombrudasso">Ou esse aqui, embora não pareça que tenha nada de relance</p>
+
+        <br/>
+        <hr/>
+
+        <h3>Transformação de Texto</h3>
+        <p id="transformado">A transformação serve para mudar como um frase aparece, por exemplo da pra tornar todas as letras inciais 
+            das palavras serem letras maiusculas <em id="capt">e ai o texto ficaria inteiramente escrito dessa forma</em> 
+            ou pode tambem ser usado para mudar as letras para minuscula ou maiuscula no texto
+        </p>
+
+        <br/>
+        <hr/>
+
+        <h3>Espaçamento de Letras</h3>
+        <p>Os espaçamento de letras define qual vai ser a distancia, normalmente em pixels, de uma letra a a outra dentro de um parágrafo.
+            Os valores a serem definidos podem ser <b>normal, lenght</b> e <b>inherit</b> que fazem, respectivamente, nada, decide uma 
+            distancia em px, pt, cm, mm, etc. e herda as configurações de seu elemento pai
+        </p>
+        <p id="espaçado">Este é um exemplo de letras espaçadas em 4pixels</p>
+
+        <p>Entretanto é possivel usar valores negativos para o espaçamento de letras, deixando o texto beeeeeem comprimido</p>
+        <p id="espremido">Ficando um negócio esquisito tipo esse aqui</p>
+        
+        <br/>
+        <hr/>
+
+        <h3>Espaçamento de Palavras</h3>
+        <p>Praticamente da mesma forma que as letras é possivel espaçar as palavras de um texto a uma distancia pré-definida, tendo os 
+            mesmos valores definiveis no espaçamento de letras
+        </p>
+        <p id="txtespaçado">Ficando um texto bem separado assim, parece que tem que ler de va gar</p>
+        <p>E da mesma forma que letras, pode se ter um valor negativo para juntar as palavras</p>
+        <p id="txtespremido">Dando numa atrocidade dessas que nem da pra ler direito meu deus do céu</p>
+
+        <br/>
+        <hr/>
+
+        <h3>Espaço em Branco</h3>
+        <p>O espaçamento em branco mexe nos espaços que se da entre as palavras escritas em parágrafos no código, ele vai interagir
+            com esass coisas, tem os valores <b>normal, inherit</b> e <b>nowrap</b>, o valor nowrap serve pra (porra nenhuma kkkkkkk) 
+            ignorar espaços em branco no texto assim como "enteres" dados no elemento "p" até que se encontre um "br/"
+        </p>
+        <p>Outros valores são:</p>
+        <ul>
+            <li><b>pre</b>: o texto vai ser lido como foi escrito no código</li>
+            <li><b>pre-line</b>: o texto vai ser lido ignorando espaços extras escritos no código, lendo as quebras de linha</li>
+            <li><b>pre-wrap</b>: o texto vai ser lido tendo em vista quebras de linha e oque mais for necessario</li>
+        </ul>
+        <p>Os textos a seguir vão estar todos escritos da mesma forma no código, mas terão códigos CSS diferentes</p>
+        <p id="pre">O texto começa normal mas depois ele                           ganha varios espaços antes de 
+            ser quebrado no meio
+        </p>
+        <p id="preline">O texto começa normal mas depois ele                           ganha varios espaços antes de 
+            ser quebrado no meio
+        </p>
+        <p id="prewrap">O texto começa normal mas depois ele                           ganha varios espaços antes de 
+            ser quebrado no meio
+        </p>
+    </body>
+</html>

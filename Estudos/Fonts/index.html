@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Fonts </title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1> Fonts </h1>
+        <h3>Propriedade Familiar</h3>
+        <p>As fontes possuem familias de proprieda que especificam a fonte a um elemento, e existem dois tipos de familia:</p>
+        <ul>
+            <li><b>Familia Fonte:</b> Especifica a familia da fonte (tipo Times New Roman ou Arial)</li>
+            <li><b>Familias Genéricas:</b> Especifica familias de fontes visualmente similares (Como Serif ou Monospace)</li>
+        </ul>
+        <p>Aqui um exemplo de algumas fontes:</p>
+        <table border="1" bgcolor="lightgreen">
+            <tr>
+                <td> <b>Fonte</b></td>
+                <td> <b>Exemplo</b></td>
+                
+            </tr>
+            <tr>
+                <td > serif </td>
+                <td class="serif"> Este texto está em serif</td>
+            </tr>
+            <tr>
+                <td > sansserif </td>
+                <td class="sansserif"> Este texto está em sansserif</td>
+            </tr>
+            <tr>
+                <td > monospace </td>
+                <td class="monospace"> Este texto está em monospace</td>
+            </tr>
+            <tr>
+                <td > cursive </td>
+                <td class="cursive"> Este texto está em cursive</td>
+            </tr>
+            <tr>
+                <td > fantasy </td>
+                <td class="fantasy"> Este texto está em fantasy</td>
+            </tr>
+        </table>
+        <p>A propriedade de fonte precisa ter varios nomes de fonte como um tipo de sistema de segurança, para caso o computador do 
+            usuario não possua a fonte solicitada no código CSS, ele tentara usar o seguinte
+        </p>
+        <p>Fontes cujos nomes possuem mais de uma palavra precisam ser descritos com " entre o nome</p>
+
+        <br/>
+        <hr/>
+
+        <h3> Propriedade de Tamanho </h3>
+        <p>O tamanho das fontes pode ser alterado de varias formas, e uma dessas formas é utlizando palavras chave em seu código css
+            como xx-small, small, medium, large, larger, etc.
+        </p>
+        <p>Aqui alguns exemplos de fontes com tamanho alterado</p>
+        <div id="tamanho">
+            <p class="small">Este parágrafo está pequeno</p>
+            <p class="medium">Este parágrafo está médio</p>
+            <p class="large">Este parágrafo está grande</p>
+            <p class="larger">Este parágrafo está BEM GRANDE</p>
+        </div>
+        <p>Também é possivel usar valores numéricos em "pixels" ou "ems" para manipular o tamanho da fonte, usar pixels pode ser
+        interessante quando se quer ter um melhor controle do tamanho, caso você não altere o tamanho da fonte em nenhum lugar ele
+        será automaticamente colocado como 16px, outra infomação importante é que cada 1em equivale a 16px, então em = pixels/16
+        </p>
+        <p>Aqui alguns exemplos de alteração com pixels e ems</p>
+        <div id="pixelsEms">
+            <p class="px20">Este parágrafo está em 20px</p>
+            <p class="em15">Este parágrafo está em 1.5em</p>
+        </div>
+
+        <br/>
+        <hr/>
+
+        <h3> Propriedade de Estilo </h3>
+        <p>A propriedade de estilo é usada, normalmente, para especificar o estilo itálico</p>
+        <p id="mario">Como este parágrafo aqui</p>
+        <p>Os estilos tem 3 valores, sendo estes <b>normal, ítalic</b> e <b>oblique</b></p>
+        <p>O estilo obliquo é parecido com o ítalico, mas tem menos suporte</p>
+
+        <br/>
+        <hr/>
+
+        <h3>Propriedade de Peso</h3>
+        <p>A propriedade de peso controla o quão fino, ou grosso é o texto, os valores que podem ser usados são: <b>normal, bold, 
+            bolder</b> e <b>lighter</b>
+        </p>
+        <div id="peso">
+            <p class="lighter">Este texto está fino</p>
+            <p class="bold">Este texto está grosso</p>
+            <p class="bolder">Este texto está BEM GROSSO</p>
+        </div>
+        <p>O "peso" do texto também pode ser definido por um numero entre 100 e 900, sendo 400 o equivalente do normal e 700 de bold</p>
+
+        <br/>
+        <hr/>
+
+        <h3> Propriedade Variante</h3>
+        <p>A propriedade variante em CSS permite a você alterar sua fonte para caps pequeno, os valores podem ser: <b>normal, 
+            small-caps</b> e <b>inherit</b>
+        </p>
+        <div id="variante">
+            <p class="normal">Este parágrafo está normal</p>
+            <p class="smallCaps">Este parágrafo está em caps pequeno</p>
+        </div>
+    </body>
+</html>
