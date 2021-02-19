@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1> O modelo de caixa em CSS</h1>
+        <br/>
+        <h3>Entendendo oque é o modelo de caixa</h3>
+        <p>Todos os elementos HTML estão dentro de caixas, e o modelo de caixa CSS representa o design e layout do site</p>
+        <p>Ele consiste de margens, bordas, preenchimento e o conteúdo.</p>
+        <p>As propriedades dessa caixa funcionam na seguinte maneira: topo, direita, fundo, e esquerda</p>
+
+        <br/>
+        <hr/>
+
+        <h3>Entendendo como funciona o modelo de caixa</h3>
+        <p>Todos os elementos em uma página web são caixas</p>
+        <p>O CSS determina quão grande essas caixas são e onde elas ficam</p>
+        <p>A altura total da caixa é calculada da mesma forma que a largura.</p>
+        <p>Onde Altura= altura + preenchimento do topo + preenchimento do fundo + borda to topo + borda do fundo + margem do topo +
+             margem do fundo
+        </p>
+
+        <br/>
+        <hr/>
+
+        <h3>A propriedade de borda</h3>
+        <p>A propriedade de borda do CSS permite a você editar as bordas de um documento HTML</p>
+        <p>As propriedades de borda no CSS representam, respectivamente:</p>
+        <ul>
+            <li><b>Tamanho</b>: define o tamanho da borda</li>
+            <li><b>Cor</b>: define a cor da borda</li>
+            <li><b>Estilo</b>: define o estilo da borda</li>
+        </ul>
+        <p class="pBordas">Este é um exemplo de parágrafo com bordas sólidas </p>
+
+        <p>As propriedades da borda podem ser alocadas separadamente, o comando border-width define o tamanho da borda separadamente.</p>
+        <p class="bWidth1">Este é um exemplo de borda onde eu mexi no tamanho para deixa-la com 2pixels</p>
+        <p class="bWidth2">Este é um exemplo de borda onde eu mexi no tamanho para deixa-la com 5pixels</p>
+
+        <p>As cores da borda podem ser definidas por um nome ou valores RGB e Hex</p>
+        <p class="cWidth">Este exemplo tem uma borda azul</p>
+
+        <p>Os estilos definem o estado da borda, por padrão ele sempre é colocado como "none", varios estilos são suportados para a 
+            propriedade de estilo, como <b>dotted, dashed, double,</b> etc. <br/>Abaixo um exemplo para mostrar alguns.
+        </p>
+        <div class="divBorder">
+            <p class="none">Este parágrafo está com bordas em none</p>
+            <p class="dotted">Este parágrafo está com bordas em dotted</p>
+            <p class="dashed">Este parágrafo está com bordas em dashed</p>
+            <p class="double">Este parágrafo está com bordas em double</p>
+            <p class="groove">Este parágrafo está com bordas em groove</p>
+            <p class="ridge">Este parágrafo está com bordas em ridge</p>
+            <p class="inset">Este parágrafo está com bordas em inset</p>
+            <p class="outset">Este parágrafo está com bordas em outset</p>
+            <p class="hidden">Este parágrafo está com bordas em hidden</p>
+        </div>
+    </body>
+</html>

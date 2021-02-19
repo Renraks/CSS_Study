@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Basicos</title>
+    </head>
+    <body>
+        <h2> Estilização </h2>
+        <p>O CSS é usado basicamente para deixar o site mais bonito, enquanto o HTML trabalha como a base de como o site é separado
+            o CSS cuidara de como o site aparenta para o usuario, embelezando-o 
+        </p>
+        <p>Por exemplo, usando o elemento style do CSS é possivel alterar como um certo paragráfo ou headline aparenta como a seguir</p>
+        <p style="color:white; background-color: gray;">Este parágrafo está estilizado</p>
+        <p>Porém no caso anterior foi usado CSS dentro do próprio HTML, mas há como separa-lo e referencia-lo posteriormente para se ter
+            uma maior clareza do código quanto mais ele crescer
+        </p>
+        <p>A estilização tem 3 regras principais: <b>seletor, propriedade</b> e <b>valor</b></p>
+        <ol>
+            <li><b>Seletor</b>: Define qual elemento HTML será alterado pelo código em CSS </li>
+            
+            <li><b>Propriedade</b>: Define oque será alterado</li>
+            <li><b>Valor</b>: Define para oque será alterado</li>
+        </ol>
+
+        <hr/>
+
+        <p>Por exemplo se você utilizar com seletor o "p" todos os parágrafos serão alterados se você puxar o 
+            código CSS por um link
+        </p>
+        <p>Outro exemplo é caso exista um ID, se um ID for utilizado como seletor, todos os atributos com aquele ID serão alterados
+            independete da posição no documento
+        </p>
+        <p id="testeEstilo">Este parágrafo possui o id "testeEstilo" usado no código para estiliza-lo</p>
+
+        <hr/>
+
+        <p>Os seletores de classe funcionam de uma maneira similar, a sua maior diferença dos ID's é que os ID's só podem
+            ser aplicados uma vez por página, enquanto as classes podem ser usadas quantas vezes necessarias na página
+        </p>
+        <p class="estileira">Neste, e no próximo parágrafo, foi aplicado a classe "estileira" e seu comando do CSS</p>
+        <p class="estileira">Este parágrafo está com estileira !! </p>
+
+        <hr/>
+
+        <p>O seletor descendente é usado para aplicar o estilo dentro de um elemento e não há limite de quão profundo nele você pode 
+            ir, e usando este seletor, tudo que estiver fora da divisão selecionada, mesmo que tenha a mesma classe 
+            não usara o estilo
+        </p>
+        <div id="profundeza1">
+            <p class="profundo">Este parágrafo está "profundo" na divisão</p>
+        </div>
+        <p class="profundo">Este parágrafo está "profundo", mas fora da divisão</p>
+
+        <hr/>
+
+        <p>Em CSS para fazer comentários dentro do código utilizace os caracteres /* para abrir o comentario, e */ para fechá-lo</p>
+
+        <hr/>
+
+        <p>A aparencia final da página web é um resultado de diferentes regras de estilização, as 3 principais fontes da informação
+            do estilo da página são:
+        </p>
+        <ul>
+            <li><b>A Stylesheet:</b> O código feito pelo autor do site.</li>
+            <li><b>O browser:</b> As definições de estilo padrões do browser usado.</li>
+            <li><b>O usuario:</b> Estilos especificos usados pelo usuario.</li>
+        </ul>
+
+        <hr/>
+
+        <h3> Herança </h3>
+        <p>A herança funciona de forma bem simples, tudo que estiver no meio de uma tag, é considerado filho de tal, dessa forma
+            tudo dentro da tag /body/ é considerado filho desta tag, então se um código em CSS faz referência a uma tag pai, todas
+            as tags filho herdaram o estilo da tag pai, a menos que sejam definidos novas cores para as tags filhos especificas 
+            depois.
+        </p>
+    </body>
+</html>
